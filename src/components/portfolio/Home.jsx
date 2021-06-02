@@ -5,7 +5,7 @@ import Article from './Article'
 import Nav from './Nav'
 import PixelArt from '../Fundamentos/PixelArt'
 
-import './Style.css'
+import './Service/Style.css'
 
 
 class NotFound extends Component {

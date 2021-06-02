@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+  border: 1px gray solid;
+  border-radius: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.titulo {
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  margin: 10px
+}
+
+a {
+  margin: 10px
+}
+

@@ -1,0 +1,42 @@
+*{
+  margin: 10px;
+}
+
+.identidade {
+  display: flex;
+  border: 1px gray solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.nome {
+  display: flex;
+}
+
+.boxAtributos{
+  display: flex;
+  border: 1px gray solid;
+  align-self: center;
+  width: 460px;
+  margin: 20px;
+}
+
+.boxElementos{
+  /* display: flex; */
+  /* flex-direction: column; */
+  border: 1px gray solid;
+  width: 460px;
+}
+
+.boxRadio{
+  border: 1px gray solid;
+  height: 70px;
+}
+
+.elementos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  /* border: 1px gray solid; */
+}

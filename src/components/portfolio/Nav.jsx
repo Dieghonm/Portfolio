@@ -15,7 +15,7 @@ class NotFound extends Component {
         <Link className='navLink' >p4</Link>
         <Link className='navLink' >p5</Link>
         <Link className='navLink' >p6</Link>
-        <Link className='navLink' >Morpheus Historys</Link>
+        <Link className='navLink' to='/RpgHome'>Morpheus Historys</Link>
       </nav>
       
     );
