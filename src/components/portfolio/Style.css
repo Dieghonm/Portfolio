@@ -1,0 +1,55 @@
+.bodyHome {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  border-radius: 25%;
+  margin-bottom: 0;
+}
+
+.h1img {
+  margin: 20px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 150px;
+  margin: 20px;
+}
+
+.portArticle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.ArticlePart {
+  margin: 20px;
+  padding-right: 30px;
+  padding-left: 50px;
+  max-width: 800px; ;
+}
+
+.listas{
+  display: flex;
+  justify-content: center;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 70px;
+}
+
+.navLink{
+  padding: 10px;
+}
+
+ul{
+  width: 300px;
+}
