@@ -1,6 +1,7 @@
 import React from 'react';
 import '../style/Fichas.css'
 import Data from '../services/data';
+import RpgHead from './RpgHead'
 
 class Fichas extends React.Component {
 
@@ -76,6 +77,7 @@ class Fichas extends React.Component {
     return(
       <main>
         {/* {console.log(this.props)} */}
+        <RpgHead />
         <section className='identidade'>
           <h1>Nome: {name}</h1>
           <div>

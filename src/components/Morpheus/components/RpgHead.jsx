@@ -13,7 +13,7 @@ class Head extends React.Component {
           <h1 className='titulo'>Morpheus Storyes</h1>
         </div>
         <nav>
-          <Link to="/">Home</Link>
+        <Link className='navLink' to='/RpgHome'>Morpheus Home</Link>
           <Link to="/Fichas">Fichas</Link>
           <Link to="/Itens">Itens</Link>
           <Link to="/Personagens">Personagens</Link>

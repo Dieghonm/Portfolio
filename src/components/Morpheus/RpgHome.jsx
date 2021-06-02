@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-// import '../style/Home.css'
+import RpgHead from './components/RpgHead'
+import './style/Home.css'
+
 
 class RpgHome extends Component {
   render() {
     return(
-      <div className='home'>
+      <div >className='home'
+        <RpgHead />
         <nav className='nav'>
           <Link to='/NotFound'>About</Link>
           <Link to='/Fichas/1'>Unorix</Link>
