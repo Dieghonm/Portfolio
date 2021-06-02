@@ -1,32 +1,30 @@
-*{
-  margin: 10px;
-}
-
 .identidade {
   display: flex;
-  border: 1px gray solid;
+  border: 1px rgb(56, 61, 80) solid;
   justify-content: center;
   align-items: center;
+  height: 100px;
 }
 
 .nome {
-  display: flex;
+  /* display: flex; */
 }
 
 .boxAtributos{
   display: flex;
-  border: 1px gray solid;
+  /* border: 1px gray solid; */
   align-self: center;
-  width: 460px;
-  margin: 20px;
+  /* width: 460px; */
+  /* margin: 20px; */
+  /* height: 100px; */
 }
 
 .boxElementos{
   /* display: flex; */
   /* flex-direction: column; */
-  border: 1px gray solid;
-  width: 460px;
-  height: 70px;
+  /* border: 1px gray solid; */
+  /* width: 460px; */
+  height: 100px;
 }
 
 .home{

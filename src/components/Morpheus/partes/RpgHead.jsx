@@ -14,9 +14,10 @@ class Head extends React.Component {
         </div>
         <nav>
         <Link className='navLink' to='/RpgHome'>Morpheus Home</Link>
-          <Link to="/Fichas">Fichas</Link>
+          {/* <Link to="/Fichas">Fichas</Link>
           <Link to="/Itens">Itens</Link>
-          <Link to="/Personagens">Personagens</Link>
+          <Link to="/Personagens">Personagens</Link> */}
+          <Link className='navLink' to='/Portfolio'>Portfólio</Link>
         </nav>
       </header>
     )

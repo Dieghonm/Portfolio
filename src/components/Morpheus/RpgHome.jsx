@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import RpgHead from './components/RpgHead'
+import RpgHead from './partes/RpgHead'
 import './style/Home.css'
 
 
 class RpgHome extends Component {
   render() {
     return(
-      <div >className='home'
+      <div className='RpgHome'>
         <RpgHead />
         <nav className='nav'>
           <Link to='/NotFound'>About</Link>
@@ -21,7 +21,7 @@ class RpgHome extends Component {
           <Link to='/Habilidades'>Habilidades</Link>
           <Link to='/PV/9'>Gastos de PV</Link>
         </nav>
-        <ul>
+        <ul className='nav'>
           <li>!roll 1d4</li>
           <li>!roll 1d6</li>
           <li>!roll 1d8</li>

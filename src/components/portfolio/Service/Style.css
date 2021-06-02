@@ -42,8 +42,10 @@
 .nav{
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  padding-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-width: 130px;
+  border: 2px rgb(56, 61, 80) solid;
 }
 
 .navLink{

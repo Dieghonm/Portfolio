@@ -9,12 +9,12 @@ class NotFound extends Component {
         <Link className='navLink' to='/home/Article'>Home</Link>
         <Link className='navLink' to='/home/PixelArt'>Pixel Art</Link>
         <Link className='navLink' >Todo List</Link>
-        <Link className='navLink' >p1</Link>
-        <Link className='navLink' >p2</Link>
-        <Link className='navLink' >p3</Link>
+        <Link className='navLink' >Pokédex</Link>
+        <Link className='navLink' >e-commerce</Link>
+        {/* <Link className='navLink' >p3</Link>
         <Link className='navLink' >p4</Link>
         <Link className='navLink' >p5</Link>
-        <Link className='navLink' >p6</Link>
+        <Link className='navLink' >p6</Link> */}
         <Link className='navLink' to='/RpgHome'>Morpheus Historys</Link>
       </nav>
       
